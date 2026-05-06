@@ -51,10 +51,3 @@ Once installed and configured, you can use the `gator` command. Here are a few e
 **Aggregation:**
 * `gator agg <time_between_requests>`: Starts the continuous aggregation server to fetch new posts (e.g., `gator agg 1m`).
 
-## Development
-
-If you are actively developing and modifying the code, you can test your changes without reinstalling by running:
-
-    go run . <command>
-
-However, for everyday "production" use, stick to the compiled `gator` command!
